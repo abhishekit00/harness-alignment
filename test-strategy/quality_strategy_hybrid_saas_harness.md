@@ -2,8 +2,6 @@
 
 ## 🌟 Introduction
 
-## 🌟 Introduction
-
 Delivering reliable, secure, and high-quality software at scale is central to the success of any hybrid SaaS platform. In a fast-paced CI/CD environment like Harness, a proactive and embedded quality strategy is not just an enabler of faster releases—it is essential to building user trust and maintaining operational excellence.
 
 As the SDET leader, our responsibility extends beyond test coverage—we must establish a scalable quality ecosystem that integrates seamlessly into the development lifecycle. This strategy must address modern software delivery challenges, including microservices architecture, distributed systems, containerized infrastructure, and compliance constraints.
