@@ -1,15 +1,17 @@
 # 🚀 End-to-End CI/CD Pipeline Using Harness for GKE-Based Microservices
 
 ## 📌 Overview
-This repository provides a robust, reusable, and production-grade CI/CD pipeline setup built entirely on [Harness](https://harness.io/). It supports:
 
-- Building and pushing Docker images for any microservice
-- Deploying to **Google Kubernetes Engine (GKE)** using **Rolling** and **Blue-Green** deployment strategies
-- Multi-environment support (QA and PROD)
-- Multi-registry Docker image replication
-- Reusability across multiple microservices with dynamic runtime inputs
+In this project, I’ve created a generic and reusable CI/CD pipeline setup using [Harness](https://harness.io/). The main idea was to design something flexible that can be used across multiple microservices with minimal changes.
 
-Designed for hybrid SaaS and Kubernetes-native applications, this implementation is enterprise-ready and DevSecOps-aligned.
+This setup allows me to:
+
+- Build and push Docker images to Google Artifact Registry (GAR)
+- Deploy to Google Kubernetes Engine (GKE)
+- Use both **Rolling** and **Blue-Green** deployment strategies
+- Handle deployments for both **QA** and **Production** environments
+- Optionally push the same image to multiple registries
+- Pass inputs dynamically so the pipeline works for any microservice
 
 ---
 
